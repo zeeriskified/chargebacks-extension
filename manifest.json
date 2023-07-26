@@ -10,9 +10,12 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://cockpit.riskxint.com/*"],
+            "matches": ["https://cockpit.riskxint.com/admin/cb_cockpit*"],
             "js": ["data.js","contentScript.js"],
             "run_at": "document_idle"
         }
     ]
 }
+
+
+// "https://cockpit.riskxint.com/*",
