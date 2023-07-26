@@ -10,6 +10,7 @@ body{
   padding: 1rem!important;
   width: 400px;
   height: 450px;
+  background-color: #5A4CFF;
 }
 
 
@@ -31,13 +32,16 @@ button.current {
 
 .popup{
 	width: 350px;
-	height: 475px;
-	background-color: #5A4CFF;
+	height: 675px;
+/*	background-color: #5A4CFF;*/
   border-radius: 6px 6px 6px 6px;
   width: 225px;
   height: 300px;
 }
 
+.text-1{
+  color: white;
+}
 
 
 /*Riskified Design Library

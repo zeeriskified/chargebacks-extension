@@ -52,9 +52,9 @@ chrome.storage.local.get(['merchantId'], function(result) {
     popupDiv.style.position = 'fixed';
     popupDiv.style.top = '10px';
     popupDiv.style.right = '10px';
-    popupDiv.style.backgroundColor = '#f9ed69';
+    popupDiv.style.backgroundColor = '#5A4CFF';
     popupDiv.style.padding = '20px';
-    popupDiv.style.border = '2px solid black';
+    popupDiv.style.border = '2px';
     popupDiv.style.zIndex = 9999;
 
     // Create a close button
