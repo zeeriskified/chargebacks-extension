@@ -1,0 +1,83 @@
+/*Riskified Looks Below */
+
+body{
+  background-color: transparent;
+  box-shadow: 3px 5px 6px 1px rgba(6, 5, 23, 0.26);
+
+}
+
+.container{
+  padding: 1rem!important;
+  width: 400px;
+  height: 450px;
+}
+
+
+button {
+/*  height:70px;
+  width: 50px;*/
+  outline: none;
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #5A4CFF;
+
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
+
+.popup{
+	width: 350px;
+	height: 475px;
+	background-color: #5A4CFF;
+  border-radius: 6px 6px 6px 6px;
+  width: 225px;
+  height: 300px;
+}
+
+
+
+/*Riskified Design Library
+
+COLORS
+Red
+#DF375F
+Teal
+#217883
+Aqua
+‍#7EDFEC
+Purple
+#BA97FF
+Blue
+#5A4CFF
+Green
+#00BEA6
+
+Dark Blue
+#283593
+Dark Purple
+‍#7F1FF7
+Tan
+#D07A5F
+Yellow
+‍#F8DE81
+Color Attributes
+
+Approved
+#00BEA6
+Declined
+#DF375F
+Chargeback
+‍#BA97FF
+Canceled
+‍#B9C2CA
+
+LINKS
+Look Book https://riskified-data-viz.webflow.io/
+Brand Book https://riskified-brand-book.webflow.io/#typo
+Icons https://www.lingoapp.com/52241/s/RkYem3/?v=0
+
+*/
