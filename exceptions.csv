@@ -1,0 +1,431 @@
+merchant_id,merchant_name,shipping_exceptions,chargaback_notice_reason_code,other
+24945,100 THIEVES,"In transit? Put to sleep for 5 days > then 5 days more. If still in transit after 10 days, send category request.",,
+18085,4GIFTERS,Ignore shipping,,
+,AIRBNB,,Accept chargebacks with Gateway: DIGITAL_RIVER and reason code: worldline.,
+5023,ALDO,,Ignore reason code and chargeback notice,
+19541,ALIBABA,Ignore Shipping,,
+19422,ANT FINANCIAL (ALI EXPRESS),Ignore Shipping,,
+18547,AZRIELI,"Accept POD without address, if the recipient name matches the shipping details.",,
+20413,BADER,Ignore shipping,"Accept reason code “999”
+
+No notice required (invoice only merchant)",
+20412,BADER,Ignore shipping,"Accept reason code “999”
+
+No notice required (invoice only merchant)",
+20165,BADER,Ignore shipping,"Accept reason code “999”
+
+No notice required (invoice only merchant)",
+27455,BALTINI,,Accept all reason codes (fraud and non-fraud),
+27590,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+25703,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+27586,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28377,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28376,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28378,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5494,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+21816,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+18342,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28513,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28514,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28511,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+28512,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+20272,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+26429,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5655,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5676,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5671,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5679,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5678,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5617,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5618,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5677,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5675,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5674,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5673,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5911,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7989,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7623,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+26760,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+27589,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+27584,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+27587,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+27585,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+27588,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7405,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+18751,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+26802,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+18739,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+22576,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7384,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7477,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7387,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7403,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7276,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7363,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7357,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7386,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7404,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7283,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+21914,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7034,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+26232,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7758,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6914,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6285,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5663,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7924,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5936,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5969,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6215,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6245,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+18745,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5699,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6536,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5750,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6191,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6158,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6553,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+18060,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+20693,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5749,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5751,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5763,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5904,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5753,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6114,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7833,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7947,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5587,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5841,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6203,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+7689,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+6131,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+20891,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+21519,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+5531,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+22509,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+30059,BANCA SELLA,,Merchant's guarantee expiry period is 30 days (even if the settings say otherwise),
+18415,BED BATH AND BEYOND,,"Chargebacks with reason code M11 or M38:
+1. Accept/reject chargeback according to last automated decision. 
+If there is none, review the RFI information in the order story → API/chargeback call, and accept/reject based on fraud/non-fraud. 
+
+If there is no previous API/chargeback call in the order story, report to Maayan and reject-'other'
+2. update dispute status to “won”.",
+7695,BESTBUY,Ignore shipping,Accept chargebacks older than 6 months (,
+7939,BJ’S,Accept ‘SDD’ (same day delivery) as shipping,Ignore Chargeback Notice,
+19538,BJ’S,Accept ‘SDD’ (same day delivery) as shipping,Ignore Chargeback Notice,
+30166,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+30165,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+28740,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+28739,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+5680,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+1605,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+20575,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+20166,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+18351,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+18350,BLACKHAWK NETWORK (BHN) / GIFT CARD,Ignore shipping for all orders,,
+20595,BLUE TICKET,,"Accept reason code: Venda sem presença do portador, enviar documentos que comprovem a transação",
+28843,BUNNINGS,,Accept Excel files as chb notice,
+19549,BUNNINGS,,Accept Excel files as chb notice,
+19372,BUNNINGS,,Accept Excel files as chb notice,
+19267,BUNNINGS,,Accept Excel files as chb notice,
+7479,CHEWY,,"Reject reason code ‘RJ’
+
+Accept reason code ‘refund_fraud’",
+18157,CHEWY,,"Reject reason code ‘RJ’
+
+Accept reason code ‘refund_fraud’",
+25276,CITYBEACH,Ignore shipping,,
+18466,COLOMBO,Non-English Notice,Colombo - New Notice File Format,
+,COS STORES,Ignore shipping,,
+6118,DICK’S SPORTING GOODS,,"Accept chbs with gateway 'DSGGateway' without reason code or notice (review the info provided)
+
+Review reason code FR as fraud",
+27892,DLOCAL PAGONUBE,Ignore shipping,,
+25386,DOOR DASH,Ignore shipping,,
+25384,DOOR DASH,Ignore shipping,,
+25383,DOOR DASH,Ignore shipping,,
+25382,DOOR DASH,Ignore shipping,,
+18250,ESKY,,"Accept email screenshots with all required info as chb notice. If there is missing info, send notice request.
+
+Combine amounts from email screenshot and Adyen screenshot for overall reimbursement amount.
+
+The merchant should specify the requested amount for reimbursement via the webapp.",
+18249,ESKY,,"Accept email screenshots with all required info as chb notice. If there is missing info, send notice request.
+
+Combine amounts from email screenshot and Adyen screenshot for overall reimbursement amount.
+
+The merchant should specify the requested amount for reimbursement via the webapp.",
+18113,ESKY,,"Accept email screenshots with all required info as chb notice. If there is missing info, send notice request.
+
+Combine amounts from email screenshot and Adyen screenshot for overall reimbursement amount.
+
+The merchant should specify the requested amount for reimbursement via the webapp.",
+7973,ESKY,,"Accept email screenshots with all required info as chb notice. If there is missing info, send notice request.
+
+Combine amounts from email screenshot and Adyen screenshot for overall reimbursement amount.
+
+The merchant should specify the requested amount for reimbursement via the webapp.",
+6106,ESKY,,"Accept email screenshots with all required info as chb notice. If there is missing info, send notice request.
+
+Combine amounts from email screenshot and Adyen screenshot for overall reimbursement amount.
+
+The merchant should specify the requested amount for reimbursement via the webapp.",
+5538,ESKY,,"Accept email screenshots with all required info as chb notice. If there is missing info, send notice request.
+
+Combine amounts from email screenshot and Adyen screenshot for overall reimbursement amount.
+
+The merchant should specify the requested amount for reimbursement via the webapp.",
+7575,FINISH LINE/JD SPORT,,"Accept fraud reason codes that include ‘PNOT’, ‘CHBK’, ‘PARB’ or ‘CHB2’
+
+Reject code 12060 as non-fraud",
+5395,FINISH LINE/JD SPORT,,"Accept fraud reason codes that include ‘PNOT’, ‘CHBK’, ‘PARB’ or ‘CHB2’
+
+Reject code 12060 as non-fraud",
+21356,FIVEBELOW,,Reject all chargebacks that are missing shipping details.,
+19480,FIVEBELOW,,Reject all chargebacks that are missing shipping details.,
+18608,FLUZ,,"Accept non-fraud ACH codes (that start with fluz_):
+R01 - Insufficient Funds
+
+R07 - Authorization Revoked
+
+R10 - Customer Advises Not Authorized
+
+R29 - Corporate Customer Advises Not Authorized",
+20410,FLUZ,,"Accept non-fraud ACH codes (that start with fluz_):
+R01 - Insufficient Funds
+
+R07 - Authorization Revoked
+
+R10 - Customer Advises Not Authorized
+
+R29 - Corporate Customer Advises Not Authorized",
+18551,FOCUS GROUP (MADE IN CHINA),"Accept chbs with only ‘shipping confirmation’ instead of full POD.
+
+ If tracking number is expired, send ‘missing shipping’ request.",,
+3981,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+
+Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
+3903,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+
+Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
+7912,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+
+Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
+7913,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+
+Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
+23240,GIFTEE,,Accept chb notice in CSV format (translate column D from Japanese to English to check reason code),
+4831,GOAT,"For RTS or never shipped chargebacks - don’t send category request → accept for 28% of the amount (order amount x 0.28).
+This does not include ‘Flight Club’ chargebacks",,
+7684,GOLF TOWN,,Use Marked Date instead of chb date on their TD Bank chargeback notice,
+26133,GOLF TOWN,,Use Marked Date instead of chb date on their TD Bank chargeback notice,
+6231,GOTITAPP,If tracking number starts with ‘ZPYA’ - use Zinc tracking site.,,
+22245,H&M,US & MX – Ignore shipping,,
+22244,H&M,US & MX – Ignore shipping,,
+28310,HALARA,"Most of Halara's tracking numbers can be tracked Chokou1 tracking.
+
+They sometimes also use Pinsheng, track here or here",,
+26594,HALARA,"Most of Halara's tracking numbers can be tracked Chokou1 tracking.
+
+They sometimes also use Pinsheng, track here or here",,
+19552,iHerb,Ignore shipping,,
+20536,iHerb,Ignore shipping,,
+18065,JB HI-FI,"No shipping info- check for ‘store pickup’ (scroll down, check the product table under “delivered to”) 
+
+
+
+
+
+if not, send category request.",,
+27331,JB HI-FI,"No shipping info- check for ‘store pickup’ (scroll down, check the product table under “delivered to”) 
+
+
+
+
+
+if not, send category request.",,
+18475,JOOM,"If tracking company = NRM, ignore shipping.",,
+19294,KOGAN,"Still in transit? Put to sleep for 15 days → if reappears, put to sleep for additional 15 days -> reject ‘not delivered’ after 30 days
+
+If shipping company is NA or ELMS → reject ‘not delivered’ 
+
+If shipping is QLS or Porter → accept without POD.
+
+If you see MARKETPLACE in the product table, ignore shipping.",,
+18396,LAST MINUTE,,,"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+18395,LAST MINUTE,,,"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+18394,LAST MINUTE,,,"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6358,LAST MINUTE,,,"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6162,LAST MINUTE,,,"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+5893,LAST MINUTE,,,"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+7072,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+7073,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+7074,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+18156,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+18418,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+18419,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+19225,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+19374,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+19375,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+19424,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+19523,"LFL (Furniture.ca , Leon's, The Brick)",Accept signed delivery slip as POD,,
+6482,LGC,US store – ignore shipping for physical orders,,
+19470,Louis Vuitton (LV) Japan,,Accept chb notice in Japanese,
+18160,MACY’S,"If there is no tracking info → check if its store pickup. if not → reject ‘not delivered’
+
+Package in transit → put chargeback to sleep for 15 days.
+if chb reappears after 15 days still in transit → put to sleep for additional 15 days.
+
+if after 30 days still in transit → reject (if its for a significant amount of orders, alert AM).
+
+
+If tracking starts with ‘Deliv’ → ignore shipping",Accept unique reason codes (like 21).,
+6173,MACY’S,"If there is no tracking info → check if its store pickup. if not → reject ‘not delivered’
+
+Package in transit → put chargeback to sleep for 15 days.
+if chb reappears after 15 days still in transit → put to sleep for additional 15 days.
+
+if after 30 days still in transit → reject (if its for a significant amount of orders, alert AM).
+
+
+If tracking starts with ‘Deliv’ → ignore shipping",Accept unique reason codes (like 21).,
+5285,MACY’S,"If there is no tracking info → check if its store pickup. if not → reject ‘not delivered’
+
+Package in transit → put chargeback to sleep for 15 days.
+if chb reappears after 15 days still in transit → put to sleep for additional 15 days.
+
+if after 30 days still in transit → reject (if its for a significant amount of orders, alert AM).
+
+
+If tracking starts with ‘Deliv’ → ignore shipping",Accept unique reason codes (like 21).,
+18372,MACY’S,"If there is no tracking info → check if its store pickup. if not → reject ‘not delivered’
+
+Package in transit → put chargeback to sleep for 15 days.
+if chb reappears after 15 days still in transit → put to sleep for additional 15 days.
+
+if after 30 days still in transit → reject (if its for a significant amount of orders, alert AM).
+
+
+If tracking starts with ‘Deliv’ → ignore shipping",Accept unique reason codes (like 21).,
+24813,MACY’S,"If there is no tracking info → check if its store pickup. if not → reject ‘not delivered’
+
+Package in transit → put chargeback to sleep for 15 days.
+if chb reappears after 15 days still in transit → put to sleep for additional 15 days.
+
+if after 30 days still in transit → reject (if its for a significant amount of orders, alert AM).
+
+
+If tracking starts with ‘Deliv’ → ignore shipping",Accept unique reason codes (like 21).,
+19546,MENUSIFU,Ignore shipping,,
+20893,MICHAEL KORS,Ignore shipping,,
+20597,MICHAEL KORS,Ignore shipping,,
+7557,MONCLER,,Accept Paypal screenshot as notice.,
+18245,MONCLER,,,
+18246,MONCLER,,,
+18436,MONCLER,,,
+18582,MONCLER,,,
+18709,MONCLER,,,
+,MOOSE KNUCKLES,,Accept spreadsheet as chargeback notice.,
+26231,New Balance,,Accept chargeback notices in CSV format.,dead
+26246,OPEN PAY,Ignore shipping,,
+26245,OPEN PAY,Ignore shipping,,
+26003,OPEN PAY,Ignore shipping,,
+26002,OPEN PAY,Ignore shipping,,
+26001,OPEN PAY,Ignore shipping,,
+26000,OPEN PAY,Ignore shipping,,
+25736,OPEN PAY,Ignore shipping,,
+22871,OPEN PAY,Ignore shipping,,
+2944,PANGEA,Ignore shipping,,
+7640,PELOTON,Ignore shipping,,
+6170,PELOTON,Ignore shipping,,
+27886,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+27749,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+19367,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+6001,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+6000,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+5999,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+5998,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+5997,PRADA,,Chargebacks for Turkish orders – accept an email titled “Chargeback Requests” as notice.,
+7472,REVOLVE,,"Fraud chargeback reason codes start with “R_F”, confirm list here.
+
+Chargebacks that do not start with “R_F” → reject non-fraud",
+18172,RING,Tracking company “MCF” – use Swiship to track,,
+18171,RING,Tracking company “MCF” – use Swiship to track,,
+18170,RING,Tracking company “MCF” – use Swiship to track,,
+18169,RING,Tracking company “MCF” – use Swiship to track,,
+18168,RING,Tracking company “MCF” – use Swiship to track,,
+7329,RING,Tracking company “MCF” – use Swiship to track,,
+6882,RING,Tracking company “MCF” – use Swiship to track,,
+6731,RING,Tracking company “MCF” – use Swiship to track,,
+6477,RING,Tracking company “MCF” – use Swiship to track,,
+6238,RING,Tracking company “MCF” – use Swiship to track,,
+18077,ROOMS TO GO,Accept shipping docs like this one (their own shipping service):,,
+6361,ROOMS TO GO,Accept shipping docs like this one (their own shipping service):,,
+21455,SAKS FIFTH AVE - HBC,If shipping_lines.title = ‘courier’ → ignore shipping,,
+19365,SAKS OFF FIFTH AVE - HBC,,Chargebacks with Gateway ID & Dispute case ID “Risk Rejects” → reject-other,
+7797,SMALLWORLDS FS,,Accept Excel file as chb notice,
+19545,SNAP COMMERCE/ SUPER CASH,,"Accept R01
+
+Accept R09",
+7156,SQDC,Ignore shipping,,
+1082,SSENSE,Accept “facility pickup” if it’s within 35 Miles/50k from address (even without prior delivery attempt).,,
+22541,STOCKX,"No shipping? → put to Sleep for 5 days → if still none after 5 days, send category requests
+
+If ‘still in transit' or 'label created’? → Sleep for 5 days → another 5 days → after 10 days, send category requests",,
+7202,STOCKX,"No shipping? → put to Sleep for 5 days → if still none after 5 days, send category requests
+
+If ‘still in transit' or 'label created’? → Sleep for 5 days → another 5 days → after 10 days, send category requests",,
+20203,ULINE,"No shipping info? send category request → if they reply saying it was store pickup, then accept.",Accept INR (item not received) chbs,
+20202,ULINE,"No shipping info? send category request → if they reply saying it was store pickup, then accept.",Accept INR (item not received) chbs,
+18315,ULINE,"No shipping info? send category request → if they reply saying it was store pickup, then accept.",Accept INR (item not received) chbs,
+2713,VESTIAIRE,Accept ‘delivered’ including pick-up from facility/access point,,
+520,VIAGOGO,Accept chb without POD if merchant says they used local shipping method without tracking.,,
+19522,VIDEO GUYS,,,
+23367,WALMART,Ignore shipping,Merchant is receiving chargebacks in the mail. The chargebacks date is the day the merchant received the letter (not the date printed in the letter).,
+18182,WALMART,Ignore shipping,Merchant is receiving chargebacks in the mail. The chargebacks date is the day the merchant received the letter (not the date printed in the letter).,
+18328,WAYFAIR,If in transit → put to sleep for 5 days → repeat until delivered.,,"Wayfair CHB Handling tickets 
+
+Re: Wayfair Chargeback Handling Tickets | Comment"
+18119,WAYFAIR,If in transit → put to sleep for 5 days → repeat until delivered.,,"Wayfair CHB Handling tickets 
+
+Re: Wayfair Chargeback Handling Tickets | Comment"
+7339,WAYFAIR,If in transit → put to sleep for 5 days → repeat until delivered.,,"Wayfair CHB Handling tickets 
+
+Re: Wayfair Chargeback Handling Tickets | Comment"
+6318,WAYFAIR,If in transit → put to sleep for 5 days → repeat until delivered.,,"Wayfair CHB Handling tickets 
+
+Re: Wayfair Chargeback Handling Tickets | Comment"
+18451,WESTERN UNION,Ignore shipping,"Accept the following ACH reason codes:
+R07 – Authorization Revoked
+
+R10 – Customer Advises Not Authorized
+
+R29 – Corporate Customer Advises Not Authorized
+
+R01 or WU_R01 – Insufficient Funds",
+7558,WESTERN UNION,Ignore shipping,"Accept the following ACH reason codes:
+R07 – Authorization Revoked
+
+R10 – Customer Advises Not Authorized
+
+R29 – Corporate Customer Advises Not Authorized
+
+R01 or WU_R01 – Insufficient Funds",
+7146,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+7145,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6778,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6777,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6772,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6771,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6557,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+6556,WISH,Ignore shipping,Accept all reason codes (fraud and non-fraud),"You should not see their chargebacks in the Submitted Q. If you do, please alert Chb Tier 2"
+18430,WOLT,Ignore shipping,Wolt Serbia (18430) ok to upload chb notice as xlsx file,
+18181,WOLT,Ignore shipping,,
+18584,WOLT,Ignore shipping,,
+18585,WOLT,Ignore shipping,,
+18586,WOLT,Ignore shipping,,
+19554,WORLD REMIT,Ignore shipping,,
+4932,ZARA,Ignore shipping,"Ignore chargeback notice
+
+Accept reason code “zara_banamex”",

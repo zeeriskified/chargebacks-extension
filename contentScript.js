@@ -37,21 +37,29 @@ function showPopup(info) {
   popupDiv.style.position = 'fixed';
   popupDiv.style.top = '10px';
   popupDiv.style.right = '10px';
-  popupDiv.style.backgroundColor = '#5A4CFF';
+  popupDiv.style.backgroundColor = 'rgb(186 151 255 / 80%)';
   popupDiv.style.padding = '20px';
   popupDiv.style.border = '2px solid white';
   popupDiv.style.zIndex = 9999;
+  popupDiv.style.boxShadow = 'rgb(0 0 0 / 29%) 6px 10px 14px 2px';
+  // '3px 5px 6px 1px rgba(6, 5, 23, 0.26)';
+  popupDiv.style.borderRadius = '5px';
+  popupDiv.style.height = '250px';
+  popupDiv.style.width = '350px';
+  popupDiv.style.color = 'white';
+  popupDiv.style.backdropFilter = 'blur(1px)';
+
 
   // Create a close button
   var closeButton = document.createElement('button');
-  closeButton.textContent = 'X';
+  closeButton.textContent = 'x';
   closeButton.style.position = 'absolute';
   closeButton.style.top = '0';
   closeButton.style.right = '0';
   closeButton.style.backgroundColor = 'transparent';
   closeButton.style.border = 'none';
   closeButton.style.cursor = 'pointer';
-  closeButton.style.fontSize = '20px';
+  closeButton.style.fontSize = '15px';
 
   // Add the click event listener to the close button
   closeButton.addEventListener('click', function() {

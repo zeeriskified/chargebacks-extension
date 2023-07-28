@@ -30,6 +30,7 @@ button.current {
               0 0 0 4px black;
 }
 
+/*refer to the extension connected pop-up*/
 .popup{
 	width: 350px;
 	height: 675px;
@@ -37,10 +38,31 @@ button.current {
   border-radius: 6px 6px 6px 6px;
   width: 225px;
   height: 300px;
+  display: contents;  /* displays contents in full popup */
 }
 
 .text-1{
   color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: #00BEA6;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00BEA6;
+}
+
+/* selected link */
+a:active {
+  color: #5A4CFF;
 }
 
 

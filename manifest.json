@@ -11,7 +11,7 @@
     "content_scripts": [
         {
             "matches": ["https://cockpit.riskxint.com/admin/cb_cockpit*"],
-            "js": ["data.js","contentScript.js"],
+            "js": ["papaparse.min.js","data.js","contentScript.js"],
             "run_at": "document_idle"
         }
     ]
