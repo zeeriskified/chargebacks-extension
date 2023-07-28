@@ -66,6 +66,43 @@ a:active {
 }
 
 
+
+
+/* JSON INFO STYLER */
+
+.popupClass {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #5A4CFF;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 300px;
+  z-index: 9999;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.infoClass {
+  display: flex;
+  flex-direction: column;
+}
+
+.keyClass {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.valueClass {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
 /*Riskified Design Library
 
 COLORS
