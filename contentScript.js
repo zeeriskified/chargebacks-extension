@@ -1,11 +1,10 @@
 // Predtermine mapping of fields for UI
 
-
 let fieldNamesMap = {
     "merchant_id": "Merchant ID",
     "merchant_name": "Merchant Name",
     "shipping_exceptions": "Shipping Exceptions",
-    "chargaback_notice_reason_code": "CHB Notices and Reason Codes",
+    "chargeback_notice_reason_code": "CHB Notices and Reason Codes",
     "other": "Notes",
     // etc.
 };
@@ -49,21 +48,38 @@ let observer = new MutationObserver((mutationsList, observer) => {
                             let keyDiv = document.createElement('div');
                             keyDiv.textContent = fieldNamesMap[key] || key; // Use the mapped name if it exists, otherwise use the key itself
                             keyDiv.className = key;
-                            keyValueDiv.appendChild(keyDiv);                                   
+                            keyValueDiv.appendChild(keyDiv);
+                            keyDiv.style.fontWeight = 'bold';
+                            keyDiv.style.marginTop = '12px';
 
                             let valueDiv = document.createElement('div');
-                            valueDiv.textContent = info[key];
                             valueDiv.className = 'valueClass';
-                            keyValueDiv.appendChild(valueDiv);                                    
+                            // Check if the value string matches a numbered list pattern
+                            if (/\d+\.\s*/.test(info[key])) {
+                                // If it does, split it into separate list items and create a new div for each one
+                                let listItems = info[key].split(/\d+\.\s*/);
+                                for (let item of listItems) {
+                                    if (item !== "") { // to ignore any empty items
+                                        let listItemDiv = document.createElement('div');
+                                        listItemDiv.textContent = item;
+                                        valueDiv.appendChild(listItemDiv);
+                                    }
+                                }
+                            } else {
+                                // If it doesn't, just set the textContent of the valueDiv as before
+                                valueDiv.textContent = info[key];
+                            }
+                            keyValueDiv.appendChild(valueDiv);
+                            valueDiv.style.marginBottom = '10px';
 
                             infoDiv.appendChild(keyValueDiv);
                         }
                     }
 
                     popupDiv.appendChild(infoDiv);
-                    popupDiv.style.minHeight = '250px'; // Minimum height
-                    popupDiv.style.maxHeight = '90vh'; // Maximum height, 90% of the viewport height
-                    popupDiv.style.overflowY = 'auto'; // Add a scrollbar if the content exceeds the max height
+                    popupDiv.style.minHeight = '250px';
+                    popupDiv.style.maxHeight = '90vh';
+                    popupDiv.style.overflowY = 'auto';
                     popupDiv.style.position = 'fixed';
                     popupDiv.style.top = '10px';
                     popupDiv.style.right = '10px';
