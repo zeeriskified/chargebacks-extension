@@ -79,6 +79,7 @@ let observer = new MutationObserver((mutationsList, observer) => {
                     popupDiv.appendChild(infoDiv);
                     popupDiv.style.minHeight = '250px';
                     popupDiv.style.maxHeight = '90vh';
+                    popupDiv.style.maxWidth = '450px';
                     popupDiv.style.overflowY = 'auto';
                     popupDiv.style.position = 'fixed';
                     popupDiv.style.top = '10px';

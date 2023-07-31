@@ -4,10 +4,14 @@
     "version": "1.0",
     "manifest_version": 3,
     "permissions": ["storage", "activeTab", "scripting", "notifications"],
+    "host_permissions": [
+        "https://getcircuit.com/package-tracker/tracking?trackingCode=*"
+    ],
     "action": {
         "default_popup": "popup.html",
         "default_title": "Search for exceptions"
     },
+
     "content_scripts": [
         {
             "matches": ["https://cockpit.riskxint.com/admin/cb_cockpit*"],
@@ -15,13 +19,49 @@
             "run_at": "document_idle"
         }
     ],
+
     "web_accessible_resources": [
-    {
-      "resources": ["exceptions.csv"],
-      "matches": ["https://cockpit.riskxint.com/*"]
-    }
-  ]
+        {
+          "resources": ["exceptions.csv"],
+          "matches": ["https://cockpit.riskxint.com/*"]
+        }
+    ]
 }
+
+
+
+
+
+
+
+// {
+//     "name": "Chargebacks Exceptions Extension",
+//     "description": "Make Chargebacks Great Again!",
+//     "version": "1.0",
+//     "manifest_version": 3,
+//     "permissions": ["storage", "activeTab", "scripting", "notifications", "https://www.aftership.com/*"],
+//     "content_security_policy": "script-src 'self' https://www.aftership.com; object-src 'self'",
+//     "action": {
+//         "default_popup": "popup.html",
+//         "default_title": "Search for exceptions"
+//     },
+
+//     "content_scripts": [
+//         {
+
+//             "matches": ["https://cockpit.riskxint.com/admin/cb_cockpit*"],
+//             "js": ["papaparse.min.js","data.js","contentScript.js"],
+//             "run_at": "document_idle"
+//         }
+//     ],
+
+//     "web_accessible_resources": [
+//     {
+//       "resources": ["exceptions.csv"],
+//       "matches": ["https://cockpit.riskxint.com/*"]
+//     }
+//   ]
+// }
 
 
 // "https://cockpit.riskxint.com/*",

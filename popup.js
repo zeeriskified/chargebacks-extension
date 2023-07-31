@@ -60,6 +60,17 @@ chrome.storage.local.get(['merchantName'], function(result) {
   }
 });
 
+document.getElementById('searchForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    let trackingNumber = document.getElementById('trackingNumber').value;
+
+    // Now you would build the URL to redirect to the getcircuit with the tracking number.
+    let circuitUrl = 'https://getcircuit.com/package-tracker/tracking?trackingCode=' + encodeURIComponent(trackingNumber);
+
+    // Now open the URL in a new tab.
+    chrome.tabs.create({ url: circuitUrl });
+});
 
 
 const merchants = {
