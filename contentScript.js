@@ -39,19 +39,19 @@ let observer = new MutationObserver((mutationsList, observer) => {
 
                     // Assume `info` is an object like { merchant_id: '123', name: 'Merchant name', field1: 'data1', field2: 'data2', ... }
                     for (let key in info) {
-                        if (info.hasOwnProperty(key)) {
+                        if (info.hasOwnProperty(key) && info[key] !== null && info[key] !== '') { // Check if value is not null or empty
                             let keyValueDiv = document.createElement('div');
-                            keyValueDiv.className = 'keyValueClass';
+                            keyValueDiv.className = 'keyValueClass';                                    
 
                             let keyDiv = document.createElement('div');
                             keyDiv.textContent = key;
                             keyDiv.className = key; // here we assign the class name to be the key itself
-                            keyValueDiv.appendChild(keyDiv);
+                            keyValueDiv.appendChild(keyDiv);                                    
 
                             let valueDiv = document.createElement('div');
                             valueDiv.textContent = info[key];
                             valueDiv.className = 'valueClass';
-                            keyValueDiv.appendChild(valueDiv);
+                            keyValueDiv.appendChild(valueDiv);                                    
 
                             infoDiv.appendChild(keyValueDiv);
                         }
@@ -60,6 +60,10 @@ let observer = new MutationObserver((mutationsList, observer) => {
 
                     popupDiv.appendChild(infoDiv);
                     // styler to be moved overto style sheet
+                    popupDiv.style.minHeight = '250px'; // Minimum height
+                    popupDiv.style.maxHeight = '90vh'; // Maximum height, 90% of the viewport height
+                    popupDiv.style.overflowY = 'auto'; // Add a scrollbar if the content exceeds the max height
+
                     popupDiv.style.position = 'fixed';
                     popupDiv.style.top = '10px';
                     popupDiv.style.right = '10px';
@@ -70,8 +74,8 @@ let observer = new MutationObserver((mutationsList, observer) => {
                     popupDiv.style.position = 'fixed';
                     popupDiv.style.boxShadow = 'rgb(0 0 0 / 29%) 6px 10px 14px 2px';
                     popupDiv.style.borderRadius = '5px';
-                    popupDiv.style.height = '250px';
-                    popupDiv.style.width = '350px';
+                    // popupDiv.style.height = '250px';
+                    // popupDiv.style.width = '350px';
                     popupDiv.style.color = 'white';
                     popupDiv.style.backdropFilter = 'blur(1px)';
 
