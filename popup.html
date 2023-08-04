@@ -2,17 +2,23 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+
   </head>
   <body>
 
 <div class="container modal-content rounded-4 shadow">
   <div id="p1" class="popup modal-body p-5">
+      <div class="header-div">
+      <div class="header-img">
+        <img src="judge.png" alt="Header Image">
+      </div class=" title-div">
+      <div class="title-top">
+        <h1 class="title-title">Chargeback Handling Resources</h1>
+        </div>
+      </div>
     <div>
-      <h1 class="text-1">Chargeback Exceptions and Handling Resources</h1>
-      <!-- <input type="text/javascript" id = "i1"> -->
-      <!-- add submit button to search v2 -->
-      <!-- <button id="b1">Submit</button> -->
       <div class="text-1">
         <p>Several merchants in our network will have exceptions and special processes that CS will need to adhere to when processing their chargeback submissions. Please reference <a href="https://riskified.atlassian.net/wiki/spaces/CS/pages/381452377/Merchant+Exceptions+-+Chargeback">this page </a> when you are reviewing chargebacks for reimbursement.
       </p>
@@ -24,25 +30,26 @@
     <li><a href="https://riskified.atlassian.net/wiki/spaces/CS/pages/54106024/Shipping+Exceptions+-+Chargeback">Shipping Exceptions</a></li>
     </ul>
   </div>
-  <p class="text-1"> New to chargeback review?<a href="https://riskified.atlassian.net/wiki/spaces/CS/pages/3640393735/Basic+Chargeback+Review+Guidelines"> Start here</a></p>
+  <p class="text-1" style="color: #00BEA6; font-weight: bold; font-size: 15px;"> New to chargeback review?<a  style ="font-size: 11px " href="https://riskified.atlassian.net/wiki/spaces/CS/pages/3640393735/Basic+Chargeback+Review+Guidelines"> Start here</a></p>
   </div>
-  <div class="window-ship-tracking">
-        <h1>Track Package on Circuit</h1>
-        <form id="searchForm">
-            <input type="text" id="trackingNumber" placeholder="Enter Tracking Number" required>
-            <input type="submit" value="Search">
-        </form>
-        
 
+  <div class="window-ship-tracking">
+        <h1 class="tracking-title">Track Package</h1>
+   <form id="searchForm" class="search-form">
+    <input type="text" id="trackingNumber" placeholder="Enter Tracking Number" required>
+    <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+</form>
+      <!--   <form id="searchForm">
+            <input type="text" id="trackingNumber" placeholder="Enter Tracking Number" required>
+            <input type="submit" value="Search" class="btn">
+        </form> -->
   </div>
 </div>
 
 
-    
-
 
 
     <script  src="popup.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

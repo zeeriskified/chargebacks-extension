@@ -22,7 +22,7 @@
 
     "web_accessible_resources": [
         {
-          "resources": ["exceptions.csv"],
+          "resources": ["exceptions.csv", "judge.png", "review.png","magnify.png","Proxima Nova Regular.otf", "Proxima Nova bold.otf"],
           "matches": ["https://cockpit.riskxint.com/*"]
         }
     ]

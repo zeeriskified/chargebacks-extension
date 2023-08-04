@@ -34,11 +34,35 @@ let observer = new MutationObserver((mutationsList, observer) => {
 
                 let info = data.find(row => row.merchant_id === merchantId);
                 if (info) {
+                  // Create the main popup div
                     var popupDiv = document.createElement('div');
                     popupDiv.className = 'popupClass';
 
+
+                      // Create the image div
+                    var imageDiv = document.createElement('div');
+                          imageDiv.style.backgroundImage = "url(" + chrome.runtime.getURL('review.png') + ")";
+                          imageDiv.style.backgroundRepeat = 'no-repeat';
+                          imageDiv.style.backgroundSize = 'cover';
+                          imageDiv.style.backgroundPosition = 'center top';
+                          imageDiv.style.height = '160px'; // adjust as needed
+                          imageDiv.style.width = '100%';                          
+
+                          // Add the image div to the body first
+                          popupDiv.appendChild(imageDiv);
+
+
+
                     var infoDiv = document.createElement('div');
                     infoDiv.className = 'infoClass';
+                    infoDiv.className = 'infoClass';
+                    infoDiv.style.color = '#white'; // Changes text color to blue
+                    infoDiv.style.backgroundColor = '#ba97fff2'; // Changes background color to yellow
+                    // infoDiv.style.padding = '1px'
+                    infoDiv.style.paddingLeft = '10px';
+                    infoDiv.style.paddingTop = '1px';
+                    infoDiv.style.paddingBottom ='1px';
+                    infoDiv.style.paddingRight = '10px';
 
                     for (let key in info) {
                         if (info.hasOwnProperty(key) && info[key] !== null && info[key] !== '') {
@@ -84,7 +108,7 @@ let observer = new MutationObserver((mutationsList, observer) => {
                     popupDiv.style.position = 'fixed';
                     popupDiv.style.top = '10px';
                     popupDiv.style.right = '10px';
-                    popupDiv.style.backgroundColor = 'rgb(186 151 255 / 80%)';
+                    popupDiv.style.backgroundColor = 'rgb(186 151 255 / 27%)';
                     popupDiv.style.padding = '20px';
                     popupDiv.style.border = '2px';
                     popupDiv.style.zIndex = 9999;
@@ -93,6 +117,16 @@ let observer = new MutationObserver((mutationsList, observer) => {
                     popupDiv.style.borderRadius = '5px';
                     popupDiv.style.color = 'white';
                     popupDiv.style.backdropFilter = 'blur(1px)';
+
+                    // // Get all elements with the class 'infoClass'
+                    // var infoClassStyle = document.getElementsByClassName('infoClass');                    
+
+                    // // Loop through each element
+                    // for (var i = 0; i < infoClassStyle.length; i++) {
+                    //     // Apply styles
+                    //     infoClassStyle[i].style.color = 'blue'; // Changes text color to blue
+                    //     infoClassStyle[i].style.backgroundColor = 'yellow'; // Changes background color to yellow
+                    // }
 
                     // Create a close button
                     var closeButton = document.createElement('button');

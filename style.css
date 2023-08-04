@@ -1,5 +1,18 @@
 /*Riskified Looks Below */
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Proxima Nova Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Proxima Nova bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+
 body{
   background-color: transparent;
   box-shadow: 3px 5px 6px 1px rgba(6, 5, 23, 0.26);
@@ -11,6 +24,33 @@ body{
   width: 400px;
   height: 450px;
   background-color: #5A4CFF;
+}
+
+.header-div{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family : 'Proxima Nova';
+}
+.header-img {
+    display: flex;
+    flex-direction: column;
+/*    width: 100%;
+    height: 100%;*/
+    object-fit: cover;
+    height: 90px;
+    width: 270px;
+}
+
+.title-top{
+  font: ;
+}
+.title-title{
+color: white;
+text-shadow: 3px 4px 3px #2622696b;
+font-size: 26px;
+
+
 }
 
 
@@ -98,6 +138,43 @@ a:active {
   margin-bottom: 10px;
 }
 
+.window-ship-tracking{
+  padding-top: 10px;
+}
+
+.tracking-title{
+  color: white;
+  font-size: 15px;
+}
+
+
+
+/* Styles for search form */
+.search-form {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden; /* To apply the border-radius to the button as well */
+}
+
+#trackingNumber {
+    flex-grow: 1; /* To make the input field take all the available space */
+    border: none; /* Remove default input field border */
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px; /* Add some horizontal padding to the button */
+    color: white; /* Color for the icon */
+}
+
+/* Color for the icon on hover */
+.btn:hover {
+    color: #ddd;
+}
 
 
 
