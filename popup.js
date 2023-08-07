@@ -23,6 +23,22 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
 });
 
 
+// clickable links on popup window 
+document.addEventListener('DOMContentLoaded', function () {
+    var links = document.getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+        (function () {
+            var ln = links[i];
+            var location = ln.href;
+            ln.onclick = function () {
+                chrome.tabs.create({ active: true, url: location });
+            };
+        })();
+    }
+});
+
+
+// NOT IN USE; TEST DATA
 const merchants = {
     'zara': {
         'exceptions':['exception1', 'exception2', 'exception3'],

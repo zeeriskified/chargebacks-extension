@@ -332,8 +332,8 @@ If you see MARKETPLACE in the product table, ignore shipping.",,
 6731,RING,Tracking company “MCF” – use Swiship to track,,Tracking link: https://www.swiship.com/track/
 6477,RING,Tracking company “MCF” – use Swiship to track,,Tracking link: https://www.swiship.com/track/
 6238,RING,Tracking company “MCF” – use Swiship to track,,Tracking link: https://www.swiship.com/track/
-18077,ROOMS TO GO,Accept shipping docs like this one (their own shipping service):,,
-6361,ROOMS TO GO,Accept shipping docs like this one (their own shipping service):,,
+18077,ROOMS TO GO,Ignore Shipping,,
+6361,ROOMS TO GO,Ignore Shipping,,
 21455,SAKS FIFTH AVE - HBC,If shipping_lines.title = ‘courier’ → ignore shipping,,
 19365,SAKS OFF FIFTH AVE - HBC,,Chargebacks with Gateway ID & Dispute case ID “Risk Rejects” → reject-other,
 7797,SMALLWORLDS FS,,Accept Excel file as chb notice,

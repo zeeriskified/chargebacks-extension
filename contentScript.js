@@ -17,6 +17,11 @@ fetch(chrome.runtime.getURL('exceptions.csv'))
         data = Papa.parse(text, { header: true }).data;
     });
 
+    // Listen until chb page loads dynamically and all AJAX calls are done
+    // grab the element using two cases: icon element before merchant info and icon element absent
+    // grab URL, split merchant ID and grab name value on UI display
+    // match page captured data with CSV data using merchant ID and create modal divs to display excpetions
+
 let observer = new MutationObserver((mutationsList, observer) => {
     for(let mutation of mutationsList) {
         if (mutation.type === 'childList') {
@@ -137,7 +142,8 @@ let observer = new MutationObserver((mutationsList, observer) => {
                     closeButton.style.backgroundColor = 'transparent';
                     closeButton.style.border = 'none';
                     closeButton.style.cursor = 'pointer';
-                    closeButton.style.fontSize = '15px';
+                    closeButton.style.fontSize = '17px';
+                    closeButton.style.fontWeight = 'bold';
 
                     // Add the click event listener to the close button
                     closeButton.addEventListener('click', function() {
