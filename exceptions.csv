@@ -191,16 +191,24 @@ Reject code 12060 as non-fraud",
 18551,FOCUS GROUP (MADE IN CHINA),"Accept chbs with only ‘shipping confirmation’ instead of full POD.
 
  If tracking number is expired, send ‘missing shipping’ request.",,
-3981,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+3981,FOOT LOCKER,"1. Ignore -Zip mismatch for orders  between Aug 20 and Sept 10
+2. If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.
+","Accept for the requested amount (ignore amount in notice)
 
 Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
-3903,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+3903,FOOT LOCKER,"1. Ignore -Zip mismatch for orders  between Aug 20 and Sept 10
+2. If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.
+","Accept for the requested amount (ignore amount in notice)
 
 Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
-7912,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+7912,FOOT LOCKER,"1. Ignore -Zip mismatch for orders  between Aug 20 and Sept 10
+2. If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.
+","Accept for the requested amount (ignore amount in notice)
 
 Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
-7913,FOOT LOCKER,"If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.","Accept for the requested amount (ignore amount in notice)
+7913,FOOT LOCKER,"1. Ignore -Zip mismatch for orders  between Aug 20 and Sept 10
+2. If merchant can't provide POD 3 months post shipping, Accept Narvar tracking link with same city and state as order shipping info.
+","Accept for the requested amount (ignore amount in notice)
 
 Chargebacks submitted in CAD should be accepted in USD without adjustments (currency exchange is settled internally)",
 23240,GIFTEE,,Accept chb notice in CSV format (translate column D from Japanese to English to check reason code),
